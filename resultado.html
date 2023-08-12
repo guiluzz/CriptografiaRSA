@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+ 
+<form method="get" class="container" action="/templates/index.html">
+  <h1>CRIPTOGRAFIA RSA</h1>
+
+  <div class="box">
+    <p>Texto digitado para realizar a criptografia:</p>
+    <textarea name="criptografar" id="criptografar" cols="30" rows="2"
+    placeholder="Texto digitado para ser criptografado.">{{resultado[0].criptografar}}</textarea>
+  </div>
+
+  <div class="box">
+    <p>Mensagem criptografada:</p>
+    <textarea cols="30" rows="2"
+    placeholder="O texto foi criptografado:">{{resultado[1].criptografado}}</textarea>
+  </div>
+  
+  <div class="box">
+    <p>Mensagem descriptografada:</p>
+    <textarea name="descriptar" id="descriptar" cols="30" rows="2"
+    placeholder="Cole o texto criptografado para descriptar a mensagem.">{{resultado[2].descriptografado}}</textarea>
+  </div>
+  
+  <a href="/">REALIZAR UMA NOVA CONSULTA</a>
+</form>
