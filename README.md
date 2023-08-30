@@ -12,3 +12,6 @@
 - Para a visualização de como ficou este projeto, foi feita uma gravação de tela mostrando como o código Python e as páginas HTML estão funcionando em conjunto para a realização da criptografia. Para acessar o vídeo clique no link abaixo e baixe o arquivo através do "view raw"!!
 
 - ![Demonstração de funcionamento: Criptografia RSA](https://github.com/guiluzz/CriptografiaRSA/blob/main/Assets/Funcionamento%20do%20código.mp4)
+
+https://github.com/guiluzz/CriptografiaRSA/assets/89231116/96a9c29d-37d2-4b0f-997f-38d482f63e3e
+
